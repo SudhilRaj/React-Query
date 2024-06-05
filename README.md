@@ -1,6 +1,8 @@
 # Tanstack Query (Formerly known as React Query)
 
-In order to run this project we need to start both the client and the server(API).
+In order to run this project you need to start both the client and the server(API).
+
+<b>NOTE: For better undertanding of the Performance and Caching behaviour you can throttle the network speed to Slow 3G, and use the integrated ```react-query-devtools``` to understand the query/mutation flow.</b>
 
 ## Start Client
 ```cd client```
