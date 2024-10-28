@@ -18,13 +18,13 @@ In order to run this project you need to start both the client and the server(AP
 - Data fetching is fairly simple, managing the asynchronous state is difficult!
 - React Query is a powerful asynchronous state management tool/library!
 - React query is a library that simplifies the way we fetch, cache and synchronize data.
-- React itself has no opinion about how we fetch data - We can use native js ```fetch``` API or ```axios``` or anything. In order to do this type of normal data fetching we also need the hooks like ```useState``` and ```UseEffect```.
+- React itself has no opinion about how we fetch data - We can use native browser ```fetch``` API or ```axios``` or anything. In order to do this type of normal data fetching we also need the hooks like ```useState``` and ```UseEffect```.
 - It is difficult to manage when we have the requirements like caching, retries, etc. React Query handles all these caching, retries, invalidation and much more out of the box. 
 - There are many other features like Auto Refetching, Parallel Queries, Dependent Queries, Infinite scroll, Offline Support, Window Focus Refetching, Scroll Recovery, Offline Support, Request Cancellation, Mutations API etc
 
 ## Key Concepts 
 ### 1) ```useQuery```
-- It is one of the most important hook in Rect Query to fetch and manage some data from a server.
+- It is one of the most important hook in React Query to fetch and manage some data from a server.
 - We can choose any fetching logic (fetch, axios) it needs to have a promise.
 - ```useQuery``` must needs a ```queryKey``` and a ```queryFn```.
 
